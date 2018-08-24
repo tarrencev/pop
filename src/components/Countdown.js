@@ -14,12 +14,9 @@ const StyledText = styled.span`
   margin-right: 5px;
 `;
 
-export default ({ endTime }) => {
-  console.log(endTime)
-  return (
-    <StyledContainer>
-      <StyledText>/ends:</StyledText>
-      <Countdown date={parseInt(endTime, 10) * 1000} />
-    </StyledContainer>
-  );
-};
+export default ({ endTime }) => (
+  <StyledContainer>
+    <StyledText>/ends:</StyledText>
+    <Countdown date={parseInt(endTime, 10) * 1000} />
+  </StyledContainer>
+);
