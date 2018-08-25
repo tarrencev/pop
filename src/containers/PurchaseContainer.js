@@ -1,5 +1,3 @@
-import React from "react";
-import styled from "styled-components";
 import { connect } from "react-redux";
 import { compose, lifecycle } from "recompose";
 import Web3Utils from "web3-utils";

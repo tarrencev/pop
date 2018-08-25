@@ -16,7 +16,7 @@ const StyledText = styled.span`
 
 export default ({ endTime }) => (
   <StyledContainer>
-    <StyledText>/ends:</StyledText>
+    <StyledText>ends:</StyledText>
     <Countdown date={parseInt(endTime, 10) * 1000} />
   </StyledContainer>
 );
