@@ -5,16 +5,13 @@
   "devDependencies": {
     "babel-polyfill": "^6.26.0",
     "babel-register": "^6.26.0",
-    "husky": "^0.14.3",
-    "lint-staged": "^7.2.0",
-    "openzeppelin-solidity": "^2.0.0",
-    "prettier": "^1.13.2",
-    "rimraf": "^2.6.2",
+    "openzeppelin-solidity": "^1.12.0",
     "truffle-privatekey-provider": "^0.1.0",
     "zos-lib": "^2.0.0"
   },
   "dependencies": {
-    "curve-bonded-tokens": "^0.1.6",
+    "curve-bonded-tokens": "^0.1.7",
+    "openzeppelin-eth": "^2.0.2",
     "truffle-hdwallet-provider": "^1.0.0-web3one.0"
   }
 }
