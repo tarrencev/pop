@@ -18,5 +18,5 @@ module.exports = async function(deployer) {
 
   await patch.purchase({ value: 100000000000000000 });
 
-  await patch.pledge(0, 0);
+  // await patch.pledge(0, 0);
 };
