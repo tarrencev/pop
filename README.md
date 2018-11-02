@@ -1,3 +1,3 @@
 # pop
 
-Non-fungible tokens sold through a bonding curve
+Crowd funded fashion

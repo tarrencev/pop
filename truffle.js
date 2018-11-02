@@ -11,12 +11,15 @@ module.exports = {
       network_id: "*"
     },
     rinkeby: {
-      provider: () =>
-        new PrivateKeyProvider(
+      provider: () => {
+        return new PrivateKeyProvider(
           "5913708418dbd0b0896f8be75a14afdca29dfcc279099d85232d8d3332431f6c",
           "https://rinkeby.infura.io/"
-        ),
-      network_id: 4
+        );
+      },
+      network_id: 4,
+      skipDryRun: true,
+      gasPrice: 5000000000
     }
   }
 };
