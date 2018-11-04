@@ -10,7 +10,7 @@
     "zos-lib": "^2.0.0"
   },
   "dependencies": {
-    "curve-bonded-tokens": "^0.1.7",
+    "curve-bonded-tokens": "^0.2.0",
     "openzeppelin-eth": "^2.0.2",
     "truffle-hdwallet-provider": "^1.0.0-web3one.0"
   }

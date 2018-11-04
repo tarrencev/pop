@@ -53,6 +53,7 @@ contract PatchToken is Initializable, ERC721, ERC721Enumerable, ERC721Metadata, 
   function addDesign(string _metadataUri) onlyOwner saleNotActive public {
     uint patch = numPatches;
     PatchStaking patchStake = PatchStaking(new UpgradeabilityProxy(patchStakingImplementation, ""));
+    patchStake.initialize();
     patchStaking[patch] = patchStake;
     patchMetadata[patch] = _metadataUri;
 

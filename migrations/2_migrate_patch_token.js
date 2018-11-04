@@ -9,8 +9,7 @@ module.exports = async function(deployer) {
   const staking = await PatchStaking.deployed();
 
   await patch.initialize("Patch Token", "PATCH", "", staking.address);
-  const receipt = await patch.addDesign("ok");
-  console.log(receipt.logs)
+  await patch.addDesign("ok");
   await patch.addDesign("nah");
   await patch.addDesign("word");
 
@@ -18,5 +17,5 @@ module.exports = async function(deployer) {
 
   await patch.purchase({ value: 100000000000000000 });
 
-  // await patch.pledge(0, 0);
+  await patch.pledge(0, 0);
 };
