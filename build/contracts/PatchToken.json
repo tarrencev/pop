@@ -8646,6 +8646,170 @@
     "version": "0.4.25+commit.59dbf8f1.Emscripten.clang"
   },
   "networks": {
+    "4": {
+      "events": {
+        "0xe44d8d5175e31f25ec14fe9bf7de1d0161a2297651284f28793414c33bed269f": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "patch",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "staking",
+              "type": "address"
+            }
+          ],
+          "name": "DesignAdded",
+          "type": "event",
+          "signature": "0xe44d8d5175e31f25ec14fe9bf7de1d0161a2297651284f28793414c33bed269f"
+        },
+        "0x233e08777131763a85257b15eafc9f96ef08f259653d9944301ff924b3917cf5": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "purchaser",
+              "type": "address"
+            }
+          ],
+          "name": "Purchase",
+          "type": "event",
+          "signature": "0x233e08777131763a85257b15eafc9f96ef08f259653d9944301ff924b3917cf5"
+        },
+        "0xf8df31144d9c2f0f6b59d69b8b98abd5459d07f2742c4df920b25aae33c64820": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "previousOwner",
+              "type": "address"
+            }
+          ],
+          "name": "OwnershipRenounced",
+          "type": "event",
+          "signature": "0xf8df31144d9c2f0f6b59d69b8b98abd5459d07f2742c4df920b25aae33c64820"
+        },
+        "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "previousOwner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "newOwner",
+              "type": "address"
+            }
+          ],
+          "name": "OwnershipTransferred",
+          "type": "event",
+          "signature": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0"
+        },
+        "0x6ae172837ea30b801fbfcdd4108aa1d5bf8ff775444fd70256b44e6bf3dfc3f6": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "MinterAdded",
+          "type": "event",
+          "signature": "0x6ae172837ea30b801fbfcdd4108aa1d5bf8ff775444fd70256b44e6bf3dfc3f6"
+        },
+        "0xe94479a9f7e1952cc78f2d6baab678adc1b772d936c6583def489e524cb66692": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "MinterRemoved",
+          "type": "event",
+          "signature": "0xe94479a9f7e1952cc78f2d6baab678adc1b772d936c6583def489e524cb66692"
+        },
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "to",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "tokenId",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transfer",
+          "type": "event",
+          "signature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+        },
+        "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "approved",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "tokenId",
+              "type": "uint256"
+            }
+          ],
+          "name": "Approval",
+          "type": "event",
+          "signature": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925"
+        },
+        "0x17307eab39ab6107e8899845ad3d59bd9653f200f220920489ca2b5937696c31": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "operator",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "approved",
+              "type": "bool"
+            }
+          ],
+          "name": "ApprovalForAll",
+          "type": "event",
+          "signature": "0x17307eab39ab6107e8899845ad3d59bd9653f200f220920489ca2b5937696c31"
+        }
+      },
+      "links": {},
+      "address": "0x036e43314fE80e07c615d7c945B1c034130b5559",
+      "transactionHash": "0xc1f23c9b8d3ca3a3c2cce31ec4b23aa7dea5bdefd554d2055e40b81b662fa2b4"
+    },
     "15": {
       "events": {
         "0xe44d8d5175e31f25ec14fe9bf7de1d0161a2297651284f28793414c33bed269f": {
@@ -8812,5 +8976,5 @@
     }
   },
   "schemaVersion": "3.0.0-beta.1",
-  "updatedAt": "2018-11-04T00:36:36.904Z"
+  "updatedAt": "2018-11-04T00:58:38.902Z"
 }
